@@ -1,0 +1,45 @@
+body {
+    margin: 0; padding: 0; background-color: #B7DF69;
+}
+.titulo {
+    padding: 20px; background-color: #1FD8D8; text-align: center; color: #cafff9; font-size: 25px; display: flex; align-items: center; gap: 20px;
+}
+.container-botones {
+    margin-top: 20px;
+}
+.btn {
+    padding: 1Opx; background-color: #F4F1EC;
+}
+.btn.btn-iniciar {
+    border: 1px solid #198754; color: #198754;
+}
+.btn.btn-iniciar:hover {
+    color: #fff; background-color: #198754;
+}
+.btn.btn-pedir {
+    border: 1px solid #45e1cf; color: #45e1cf;
+}
+.btn.btn-pedir:hover {
+    color: #fff; background-color: #45e1cf;
+}
+.btn.btn-detener {
+    border: 1px solid #FE4365; color: #FE4365;
+}
+.btn.btn-detener:hover {
+    color: #fff; background-color: #FE4365;
+}
+h1 {
+    text-shadow: 0 0 5px #4fe3bc; color: #635f73;
+}
+.carta {
+    position: relative; width: 150px; margin-left: -80px; left: 80px; animation: sombra-carta 3s infinite;
+}
+#computadora-cartas, #jugador-cartas{
+    height: 240px;
+}
+@keyframes sombra-carta {
+    50% {box-shadow: 10px 20px 30px rgb(36, 151, 172);}
+}
+img {
+    width: 150px;
+}
